@@ -1,0 +1,19 @@
+# results and large artifacts
+results/
+data/read_directories/
+data/references/*.fai
+data/references/*.dict
+**/*.bam
+**/*.bai
+**/*.cram
+**/*.crai
+**/*.vcf.gz
+**/*.tbi
+**/*.bcf
+**/*.zip
+**/*.html
+.snakemake/
+.ipynb_checkpoints/
+__pycache__/
+logs/
+tmp/
