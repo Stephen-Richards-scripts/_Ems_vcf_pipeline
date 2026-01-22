@@ -1,0 +1,7 @@
+
+project_root: /group/jbondgrp2/stephenRichards/_Analysis_projects/_Ems_vcf_pipeline
+read_set: Brachycybe_producta_test_readset
+reference: GCA_036925085.1_qdBraProd1.0.pri_genomic.fa      # basename only; Snakefile resolves path
+caller: bcftools                       # or "gatk"
+threads_per_sample: 16
+mem_gb_per_sample: 64
